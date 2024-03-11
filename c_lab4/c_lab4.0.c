@@ -4,7 +4,7 @@
 void isAlphabet(char ch, int sum){
 
 srand(time(NULL));
-ch = (rand() % 96) + 32;
+ch = (rand() % 95) + 32;
 sum = 65 <= ch && ch <= 90 || 97 <= ch && ch <= 122;
 
 printf("random character: %c\n",ch);
